@@ -3,6 +3,10 @@ Ext.define('ExtJSExample.model.User', {
 
   fields: [
     {
+      name: 'id',
+      type: 'int'
+    },
+    {
       name: 'name'
     },
     {

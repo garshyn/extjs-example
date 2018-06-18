@@ -13,7 +13,7 @@ Ext.define('ExtJSExample.CsvReader', {
       if(!recordData[0]) {
         break;
       }
-      var record = {};
+      var record = { id: i };
       Ext.Array.forEach(names, function(name, index) {
         record[name] = recordData[index]
       })

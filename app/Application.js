@@ -4,6 +4,7 @@ Ext.define('ExtJSExample.Application', {
     mainView: 'ExtJSExample.view.main.Main',
 
     stores: [
-      'Users'
+      'Users',
+      'Activities'
     ]
 });

@@ -2,7 +2,8 @@ Ext.define('ExtJSExample.view.main.Main', {
   extend: 'Ext.tab.Panel',
 
   requires: [
-    'ExtJSExample.view.main.UserGrid'
+    'ExtJSExample.view.main.UserGrid',
+    'ExtJSExample.view.main.ActivityGrid'
   ],
 
   items: [
@@ -11,6 +12,14 @@ Ext.define('ExtJSExample.view.main.Main', {
       items: [
         {
           xtype: 'usergrid'
+        }
+      ]
+    },
+    {
+      title: 'Activities',
+      items: [
+        {
+          xtype: 'activitygrid'
         }
       ]
     }
