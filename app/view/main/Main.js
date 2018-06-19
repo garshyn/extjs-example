@@ -32,6 +32,14 @@ Ext.define('ExtJSExample.view.main.Main', {
         { xtype: 'activitychart', title: 'Finished on schedule', columnWidth: '0.33', id: 'cmpFinishedChart' },
         { xtype: 'activitychart', title: 'Start and Finish on schedule', columnWidth: '0.33', id: 'cmpOverallChart' }
       ]
+    },
+    {
+      title: 'Effects',
+      items: [
+        {
+          xtype: 'effectchart'
+        }
+      ]
     }
   ]
 });
