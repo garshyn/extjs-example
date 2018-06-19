@@ -5,6 +5,7 @@ Ext.define('ExtJSExample.Application', {
 
     stores: [
       'Users',
+      'ActivitiesOnSchedule',
       'Activities'
     ]
 });
